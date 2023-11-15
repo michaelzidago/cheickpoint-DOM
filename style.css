@@ -1,0 +1,55 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(47, 1, 1);
+}
+.table{
+    width: 600px;
+    height: 120px;
+    text-align: left;
+    background-color: white;
+}
+.grande div {
+    align-items: center;  
+}
+.division{
+    display: flex;
+    flex-direction: column;
+}
+.Titre{
+    display: flex;
+    margin-left: 1rem;
+}
+.titreh{
+    margin-left: 1rem;
+}
+.div1{
+    display: flex;
+}
+.div2{
+    display: flex;
+    
+}
+.addBtn{
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.Quantité{
+    min-width: 300px;
+    font-size: 40px; 
+    cursor: pointer;
+}
+.Prix_produit{
+    margin-left: 1rem;
+}
+.Sous_total{
+    margin-left: 1rem;
+}

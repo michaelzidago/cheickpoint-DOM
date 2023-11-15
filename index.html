@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grande div">
+        <div class="sous div">
+            <h1> <font color="orange">Panier</font></h1>
+            <div class="table">
+                <thead>
+                    <div class="Titre">
+                        <h3 class="titreh"> Nom de l'article</h3>
+                        <h3 class="titreh">Quantité</h3>
+                        <h3 class="titreh">Price Unitaire</h3>
+                        <h3 class="titreh">Sous Total</h3>                       
+                    </div>
+                </thead>
+                <tbody class="Tous_les_produits">
+                    <div class="div1"> 
+                        <div class="division">
+                            <section class="Nom-article">Sac de riz</section>                      
+                            <section class="Supp-article"><font color="red">Supprimer</font></section>
+                        </div>                      
+                        <div class="Quantité">
+                            <button class="qté_moins">-</button>
+                            <input type="text" readonly placeholder="Prix unitaire" class="qté" value="1">
+                            <button class="qté_plus">+</button>
+                        </div>
+                        <h4 class="Prix">25000fr</h4>
+                        <h4 class="Sous_total">25000fr</h4>                                                
+                    </div>
+                </tbody>
+                <tfoot>
+                    <div class="div2">
+                        <section><input type="text" class="Nom_produit" placeholder="Nom de l'article" contenteditable></section>
+                        <section><input type="number" step="1" class="Prix_produit" value="1000" contenteditable></section>
+                        <section><button type="button" class="AddBtn">Ajouter un article</button></section>
+                    </div>
+                </tfoot>
+            </div>
+            <h2><font color="orange">Total :</font><span class="Totaux"> <font color="green">25000fr</font></span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
